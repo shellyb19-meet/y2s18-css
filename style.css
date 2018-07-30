@@ -1,11 +1,65 @@
 body {
 	background-color: #000807;
 }
+.title{
+	height: 60px;
+	width: 100%;
+}
+.container{
+	position: relative;
+	height: 1000px;
+}
+.sidebar{
+	background-color: linear-gradient(red, yellow, green);
+	position: absolute;
+	top: 0px
+	left: 0px;
+	height: 100%;
+	width: 195px;
+
+}
+.content{
+	position: absolute;
+	top: 0px;
+	left: 200px;
+}
 h1{
 	color:#A2A3BB;
 }
 p{
 	color:#FBF9FF;
+}
+ol{
+	background-color: blue;
+}
+p.sup{
+	color:red;
+}
+.list1{
+	color:white;
+}
+.checkbox{
+	transform: scale(3.5);
+	color:blue;
+}
+label { background-color:#333; color:#FFF; }
+}
+#a{
+	color: yellow;
+}
+#p1{
+	color: pink;
+	background-color: red;
+}
+#p2{
+	font-family: Arial, sans-serif;
+}
+#veg{
+	color:white;
+}
+#not_veg{
+	color:yellow;
+	font-size: 150%;
 }
 a{
 	color: #7B7EAF;
